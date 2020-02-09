@@ -121,6 +121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 704f1a6bc734dc14c87580f2c2a36668, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerViewType: 1
+  playerViewType: 2
   jumpForce: 0
   horizontalStep: 0
+  isMove: 1
+  isMoveWithPlatform: 0

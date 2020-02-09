@@ -104,4 +104,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29518720ffd09244b848ba836c4d9379, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  logMoveSpeed: 1
+  logMoveSpeed: 0
+  isChangeLogSpeedAfterTime: 1
+  minLogMoveSpeed: 0.75
+  maxLogMoveSpeed: 2.5
+  minChangeSpeedTime: 0.75
+  maxChangeSpeedTime: 2

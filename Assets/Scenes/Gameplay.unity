@@ -517,9 +517,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   logView: {fileID: 5985723130996780370, guid: 849d1dfc2a422a34b8b82a8a1401f113, type: 3}
-  minLogSpawnTime: 4
-  maxLogSpawnTime: 6
+  minLogSpawnTime: 3
+  maxLogSpawnTime: 4.5
   spawnTime: 0
+  minLogScaleX: 2
+  maxLogScaleX: 3
+  isRandomSpawnTime: 1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,7 +596,8 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0.0000000018775381, y: 0.0000000037252903, z: -Infinity,
+    w: 6.6174445e-24}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -655,9 +659,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   logView: {fileID: 5985723130996780370, guid: 849d1dfc2a422a34b8b82a8a1401f113, type: 3}
-  minLogSpawnTime: 3
-  maxLogSpawnTime: 6
+  minLogSpawnTime: 2
+  maxLogSpawnTime: 3
   spawnTime: 1
+  minLogScaleX: 2
+  maxLogScaleX: 3.5
+  isRandomSpawnTime: 1
 --- !u!1 &925463445
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,9 +709,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   logView: {fileID: 5985723130996780370, guid: 849d1dfc2a422a34b8b82a8a1401f113, type: 3}
-  minLogSpawnTime: 5
-  maxLogSpawnTime: 8
+  minLogSpawnTime: 2
+  maxLogSpawnTime: 3
   spawnTime: 1.75
+  minLogScaleX: 1.75
+  maxLogScaleX: 3.75
+  isRandomSpawnTime: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1196,9 +1206,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   logView: {fileID: 5985723130996780370, guid: 849d1dfc2a422a34b8b82a8a1401f113, type: 3}
-  minLogSpawnTime: 5
-  maxLogSpawnTime: 8
+  minLogSpawnTime: 2
+  maxLogSpawnTime: 3
   spawnTime: 1.75
+  minLogScaleX: 1.75
+  maxLogScaleX: 3.25
+  isRandomSpawnTime: 0
 --- !u!1 &1400506794
 GameObject:
   m_ObjectHideFlags: 0
@@ -1350,9 +1363,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   logView: {fileID: 5985723130996780370, guid: 849d1dfc2a422a34b8b82a8a1401f113, type: 3}
-  minLogSpawnTime: 4
-  maxLogSpawnTime: 6
+  minLogSpawnTime: 3
+  maxLogSpawnTime: 4.5
   spawnTime: 1
+  minLogScaleX: 2
+  maxLogScaleX: 3
+  isRandomSpawnTime: 1
 --- !u!1 &1504951925
 GameObject:
   m_ObjectHideFlags: 0

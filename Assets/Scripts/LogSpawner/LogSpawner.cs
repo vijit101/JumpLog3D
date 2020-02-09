@@ -7,10 +7,17 @@ namespace LogJump.Log
     {
         public LogView logView;
         public float minLogSpawnTime,maxLogSpawnTime, spawnTime;
+        public float minLogScaleX, maxLogScaleX;
+        [Tooltip("Set True if you want the first spawn time be random")]
+        public bool isRandomSpawnTime;
         float timeLapsed = 0;
-        private void SetSpawnTime()
+
+        private void Start()
         {
-            spawnTime = UnityEngine.Random.Range(minLogSpawnTime, maxLogSpawnTime);
+            if (isRandomSpawnTime)
+            {
+                SetSpawnTime();
+            }
         }
         private void Update()
         {
@@ -31,6 +38,15 @@ namespace LogJump.Log
         {
             LogView view = GameObject.Instantiate<LogView>(logView);
             view.SetMyPos(transform.position);
+            float randomXScale = UnityEngine.Random.Range(minLogScaleX, maxLogScaleX);
+            view.SetLogXScale(randomXScale);
+        }
+
+        
+
+        private void SetSpawnTime()
+        {
+            spawnTime = UnityEngine.Random.Range(minLogSpawnTime, maxLogSpawnTime);
         }
     }
 
