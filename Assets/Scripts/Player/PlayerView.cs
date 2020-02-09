@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LogJump.Log;
+using System;
 using UnityEngine;
 namespace LogJump.Player
 {
@@ -15,7 +16,19 @@ namespace LogJump.Player
             rgbd = gameObject.GetComponent<Rigidbody>();
         }
         // Update is called once per frame
-       
+        private void Update()
+        {
+            OnFall();
+        }
+
+        private void OnFall()
+        {
+            if (transform.position.y < 0)
+            {
+                Destroy(gameObject);
+            }
+        }
+
         public void SetMyController(PlayerController controller)
         {
             playerController = controller;
@@ -40,5 +53,6 @@ namespace LogJump.Player
             }
             
         }
+
     }
 }

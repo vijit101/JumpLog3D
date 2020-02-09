@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GreenPlayer
   m_EditorClassIdentifier: 
   playerType: 1
-  jumpStep: 3
-  horizontalStep: 3
+  jumpStep: 2.75
+  horizontalStep: 2.75
   playerView: {fileID: 5654668891134580214, guid: 7fe113e6b9179aa44b512aabbdeab215,
     type: 3}
